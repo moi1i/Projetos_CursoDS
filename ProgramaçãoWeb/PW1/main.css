@@ -1,0 +1,54 @@
+.bg-abobora{
+    background-color: rgba(255, 166, 0, 0.815);
+}
+/*navbar*/
+.navbar{
+    background-color:rgba(61, 0, 110, 0.445);
+}
+
+.collapse{
+    justify-content: flex-start;
+}
+
+.nav-link{
+    color: rebeccapurple;
+}
+
+.nav-link:hover{
+    color: mediumpurple;
+    font-weight: bold;
+}
+/*navbar fim*/
+
+/*header*/
+.header{
+    background-image: url(../images/header-background2.jpg);
+    background-size: cover;
+    position: relative;
+}
+/*header fim*/
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.2)
+}
+
+.descripition{
+    left:50%;
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    transform: translate(-50%, -55%);
+}
+
+.descripition h1{
+    color: violet;
+}
+
+.descripition p{
+    color: white;
+    line-height: 1.5;
+}
