@@ -1,0 +1,25 @@
+{
+  "name": "atividade-pw3",
+  "version": "1.0.0",
+  "description": "Ultima atividade PW3",
+  "main": "index.js",
+  "scripts": {
+    "test": "teste",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "Node.js",
+    "PWIII"
+  ],
+  "author": "Moises Velasco",
+  "license": "ISC",
+  "homepage": "https://github.com/moi1i/Projetos_CursoDS/tree/main/Programa%C3%A7%C3%A3oWeb/Atividade-PW3",
+  "dependencies": {
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.18.0"
+  }
+}
